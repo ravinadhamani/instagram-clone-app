@@ -1,0 +1,23 @@
+.loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.formPopup {
+   /*  display: none; */
+    position: fixed;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, 5%);
+    border: 1px solid #999999;
+    width: 350px;
+    height: 330px;
+    z-index: 9;
+    padding: 20px;
+}
+.logo {
+    height: 40px;
+    width: 140px;
+    position: relative;
+}

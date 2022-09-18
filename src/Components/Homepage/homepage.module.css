@@ -1,0 +1,118 @@
+.header{
+    background-color: white;
+    height: 50px;
+
+}
+.logo{
+    height: 40px;
+    width: 140px;
+    position: relative;
+    right: 120px;
+    top:15px;
+    
+}
+.body{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.search{
+    background-color: gainsboro;
+    border: none;
+    height: 35px;
+    width: 220px;
+    position: relative;
+  
+    bottom: 2px;
+}
+.searchicon{
+    height: 25px;
+    width: 30px;
+    position: relative;
+    right: 105px;
+    top: 5px;
+}
+.icons{
+    height: 30px;
+    width: 45px;
+    padding-left: 20px;
+    position: relative;
+    top: 2px;
+    left: 100px;
+}
+
+.floatcontainer {
+    border: 3px solid #fff;
+    padding: 20px;
+    display: flex;
+    background-color: whitesmoke;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.floatchild {
+    width: 50%;
+    float: left;
+    padding: 20px;
+
+    
+}  
+
+.storiesDiv{
+    width: 500px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.feedDiv{
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 20px;
+}
+.profile{
+    display: flex;
+}
+#profileName{
+    position: relative;
+    left: 60px;
+    bottom: 7px;
+}
+#userName{
+    position: relative;
+    left: 75px;
+    bottom: 25px;
+}
+.profileicon{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+}
+
+.switchBtn{
+    border: none;
+    background-color: whitesmoke;
+    position: relative;
+    left: 200px;
+    top:10px;
+    cursor: pointer;
+    color: #07b8f3ee;
+    font-weight: 600;
+}
+.suggestionsText{
+    color: grey;
+    margin-right: 120px;
+}
+.seeAllBtn{
+    margin-left: 280px;
+    position: relative;
+    bottom: 38px;
+    border: none;
+    background-color: whitesmoke;
+    cursor: pointer;
+}
